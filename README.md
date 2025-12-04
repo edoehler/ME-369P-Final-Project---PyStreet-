@@ -29,5 +29,5 @@ Possible extensions:
 
 Division of Labor:
 - Grant: Pulling data off Financial Modeling Prep, FinBERT testing, and  analyzing data to find insights and data points of interest. 
-- Ethan: CAPM analysis, earnings transcript sourcing, analyzing data to find insights and data points of interest, FinBERT research.
+- Ethan: Earnings transcript sourcing, analyzing data to find insights and data points of interest, LLM / neural network research research.
 - Ryan: Building abnormal return calculations from raw data, analyzing data to find insights and data points of interest, earnings transcript sourcing.
