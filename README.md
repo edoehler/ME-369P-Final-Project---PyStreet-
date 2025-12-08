@@ -21,6 +21,7 @@ The following is our key takeaways from the graphs and analysis done in the code
 When we slice the data by year, we find that day-of abnormal returns have actually flipped negative on average over the past two years, highlighting a more cautious market reaction to earnings. Statistically, only one sector shows a significant correlation between day-0 reactions and subsequent drift, which implies that, in our sample, markets are mostly efficient with respect to earnings news. Overall, the five-day post-earnings drift is negative on average, so earnings releases are not a great time to buy stocks in general—if anything, they are periods of elevated volatility rather than easy excess-return opportunities.
 
 Files:
+
 **Data_extraction.py:** This is a super useful file for anybody who has a FMP API key or a similair API that would work with the script. THis file provides a clear framework for accessing API data over a period of time across multiple metrics and stocks. Others could modify this script easily to access data for other stocks, time periods, metrics, etc.
 
 **Data_Analysis.py:** This is a useful file becasue it crunches the numbers fed into it and outputs plots relevent to Post-Earnings Announcement Drift. This file can easily be modified to output different plots or to protray different metrics.
