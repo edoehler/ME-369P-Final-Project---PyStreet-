@@ -22,8 +22,11 @@ When we slice the data by year, we find that day-of abnormal returns have actual
 
 Files:
 **Data_extraction.py:** This is a super useful file for anybody who has a FMP API key or a similair API that would work with the script. THis file provides a clear framework for accessing API data over a period of time across multiple metrics and stocks. Others could modify this script easily to access data for other stocks, time periods, metrics, etc.
+
 **Data_Analysis.py:** This is a useful file becasue it crunches the numbers fed into it and outputs plots relevent to Post-Earnings Announcement Drift. This file can easily be modified to output different plots or to protray different metrics.
+
 **FINAL_DATA.csv:** This file is used in Data_Analysis.py if a user does not have an API key. This allows people to analyze the data on their own if they do not use the key, since we saved the data we used in our project there. This file also stores, in addition to stock and PEAD-related data, the FinBERT sentiment scores.
+
 **transcripts.zip:** This is a zip file that has all the earnings call transcripts over the quarters and companies we analyzed in this project. This file is needed for the FinBERT neural network because FinBERT ingests transcripts and outputs a number based on the earnings call. Pulling a large quantity of transcripts can be hard or cost a subscription, so having them all in one place here is integral for the project.
 
 Possible extensions:
